@@ -1,0 +1,42 @@
+/* Traditionally the first program people write in a new language is called “Hello, World.” because all it does is print the words “Hello, World.” In C++, this program looks like this: */
+
+#include <iostream>
+using namespace std;
+// main: generate some simple output
+int main () {
+    cout << "Hello, World." << endl;
+    return 0;
+}
+
+/*This program prints two different statements on two different lines using endl. */
+
+#include <iostream>
+using namespace std;
+
+// main: generate some simple output
+int main () {
+    cout << "Hello, world." << endl;     // output one line
+    cout << "How are you?" << endl;      // output another
+}
+
+/*This program prints two different statements on the same line.*/
+
+#include <iostream>
+using namespace std;
+
+int main () {
+    cout << "Goodbye, ";
+    cout << "cruel world!" << endl;
+}
+
+/*This program accomplishes the same thing as the one above. The difference is that there are no spaces separating the different components of each line. This is a matter of personal preference.*/
+
+#include <iostream>
+using namespace std;
+
+int main () {
+    cout<<"Goodbye, ";
+    cout<<"cruel world!"<<endl;
+}
+
+
